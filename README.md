@@ -1,4 +1,4 @@
-![image](https://github.com/Chocobot02/Thesis/assets/73695287/c31f77b7-9837-4cd5-b9f0-5b7da63bfd06)
+
 # THESIS: Vehicle Classification and Counting System
 
 ## Abstract
