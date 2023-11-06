@@ -8,7 +8,7 @@ This study highlights the modularity, scalability, and adaptability, making it s
 
 
 ## Authors
--Raymond Cancilao
+-Raymond Cancilao: [@Chocobot02](https://github.com/Chocobot02)
 
 -Kenneth Toledo: [@keynneth755](https://github.com/Keynneth755)
 
