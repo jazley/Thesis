@@ -13,7 +13,7 @@ This study highlights the modularity, scalability, and adaptability, making it s
 -Kenneth Toledo: [@keynneth755](https://github.com/Keynneth755)
 
 -Kent Ursolino:
-[@Rafiel31](https://github.com/krafiel31)
+[@Krafiel31](https://github.com/krafiel31)
 
 -Jazley Manguino: 
 [@jazley.manguino](https://www.facebook.com/jazley.manguino)
