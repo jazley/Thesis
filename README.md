@@ -36,4 +36,4 @@ This study highlights the modularity, scalability, and adaptability, making it s
 
 
 ---
-> NOTE: The required dependencies that must be installed in the local or virtual environment are listed in 'requirements.txt'. ByteTrack is also  need to be installed.
+> NOTE: The required dependencies that must be installed in the local or virtual environment are listed in 'requirements.txt'. ByteTrack is also  need to be installed.[Link](https://github.com/ifzhang/ByteTrack)
