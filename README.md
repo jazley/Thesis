@@ -1,4 +1,4 @@
-
+![image](https://github.com/Chocobot02/Thesis/assets/73695287/c31f77b7-9837-4cd5-b9f0-5b7da63bfd06)
 # THESIS: Vehicle Classification and Counting System
 
 ## Abstract
@@ -13,10 +13,10 @@ This study highlights the modularity, scalability, and adaptability, making it s
 -Kenneth Toledo
 
 -Kent Ursolino:
-[@Rafiel31](http://dev.nodeca.com)
+[@Rafiel31](https://github.com/krafiel31)
 
 -Jazley Manguino: 
-[Github account](http://dev.nodeca.com)
+[Github account](http://facebook.com)
 
 -_also Leo Magpantay for guiding and helping us_ [@ldmagpantay](https://github.com/ldmagpantay)
 
