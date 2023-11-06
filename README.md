@@ -1,10 +1,12 @@
 
 # THESIS: Vehicle Classification and Counting System
-___
-## Abstract
-lorem
 
----
+## Abstract
+In the era of smart transportation and traffic management, the need for efficient and accurate vehicle classification and counting systems has become increasingly significant. Previous vehicle classification systems face several challenges. The two main problems encountered by vehicle classification systems. Vehicle blockage, which blocks views of vehicles behind another vehicle, and the fast-moving vehicles, which cause blurred image captures.
+The design and development of vehicle classification and counting systems utilizing high definition camera and magnetometer sensors employs advanced computer vision techniques enabling real-time recognition and classification of vehicles. Moreover, magnetometer sensors were employed to detect and track the presence of vehicles in motion. The combination of these technologies allows for precise classification and counting of vehicles, distinguishing between common vehicles in the Philippines such as cars, bicycles, e-bikes, jeepneys, trucks, tricycles, vans, motorcycles, and buses. After a series of experiments using the HMC5883L Magnetometer Sensor, the researcher’s failed to improve the output of the sensor. However, the camera gained a good accuracy using image processing. The dataset was trained using three deep learning algorithms which are YOLOv5, YOLOv7, and YOLOv8. The YOLOv8 was considered as the project’s model with an accuracy of 94.5%. In actual deployment for one-minute intervals, the system consistently achieved classification accuracy ranging from 71% to 100% and counting accuracy of 90.245%.
+This study highlights the modularity, scalability, and adaptability, making it suitable for various traffic monitoring applications. This system promises enhanced accuracy in vehicle classification and counting, reduced human intervention, and the potential for real-time traffic analysis
+
+
 ## Authors
 -Raymond Cancilao
 
