@@ -22,8 +22,8 @@ This study highlights the modularity, scalability, and adaptability, making it s
 ## Testing and Result
 
 ##### __Sample Testing__
-![day](https://octodex.github.com/images/minion.png)
-![noght](https://octodex.github.com/images/minion.png)
+![day](https://raw.githubusercontent.com/Chocobot02/Thesis/63067ba386cd0cbe4d774851f9f585220d632851/Screenshot%202023-11-06%20164554.png)
+![noght](https://raw.githubusercontent.com/Chocobot02/Thesis/63067ba386cd0cbe4d774851f9f585220d632851/Screenshot%202023-11-06%20164609.png)
 
 ##### __Result of Video Inference__
 | Object Detection Algorithm | mAP@0.5 conf | mAP@0.7 conf|
