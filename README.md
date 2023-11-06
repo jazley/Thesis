@@ -10,13 +10,13 @@ This study highlights the modularity, scalability, and adaptability, making it s
 ## Authors
 -Raymond Cancilao
 
--Kenneth Toledo: [kenneth.toledo.520](https://www.facebook.com/kenneth.toledo.520)
+-Kenneth Toledo: [@kenneth.toledo.520](https://www.facebook.com/kenneth.toledo.520)
 
 -Kent Ursolino:
 [@Rafiel31](https://github.com/krafiel31)
 
 -Jazley Manguino: 
-[Github account](https://www.facebook.com/kenneth.toledo.520)
+[@jazley.manguino](https://www.facebook.com/jazley.manguino)
 
 -_also Leo Magpantay for guiding and helping us_ [@ldmagpantay](https://github.com/ldmagpantay)
 
