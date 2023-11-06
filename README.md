@@ -10,6 +10,8 @@ This study highlights the modularity, scalability, and adaptability, making it s
 ## Authors
 -Raymond Cancilao
 
+-Kenneth Toledo
+
 -Kent Ursolino:
 [@Rafiel31](http://dev.nodeca.com)
 
