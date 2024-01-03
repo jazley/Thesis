@@ -1,0 +1,143 @@
+<!DOCTYPE HTML><html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <style>
+    body {
+      min-width: 310px;
+      max-width: 800px;
+      height: 400px;
+      margin: 0 auto;
+    }
+    h2 {
+      font-family: Arial;
+      font-size: 2.5rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h2>ESP Magnetometer Data</h2>
+  <div id="chart-x" class="container"></div>
+  <div id="chart-y" class="container"></div>
+  <div id="chart-z" class="container"></div>
+</body>
+<script>
+var chartX = new Highcharts.Chart({
+  chart:{ renderTo : 'chart-x' },
+  title: { text: 'Magnetometer X' },
+  series: [{
+    showInLegend: false,
+    data: []
+  }],
+  plotOptions: {
+    line: { animation: false,
+      dataLabels: { enabled: true }
+    },
+    series: { color: '#059e8a' }
+  },
+  xAxis: { type: 'datetime',
+    dateTimeLabelFormats: { second: '%H:%M:%S' }
+  },
+  yAxis: {
+    title: { text: 'X Value' }
+  },
+  credits: { enabled: false }
+});
+
+var chartY = new Highcharts.Chart({
+  chart:{ renderTo : 'chart-y' },
+  title: { text: 'Magnetometer Y' },
+  series: [{
+    showInLegend: false,
+    data: []
+  }],
+  plotOptions: {
+    line: { animation: false,
+      dataLabels: { enabled: true }
+    },
+    series: { color: '#ff9d00' }
+  },
+  xAxis: { type: 'datetime',
+    dateTimeLabelFormats: { second: '%H:%M:%S' }
+  },
+  yAxis: {
+    title: { text: 'Y Value' }
+  },
+  credits: { enabled: false }
+});
+
+var chartZ = new Highcharts.Chart({
+  chart:{ renderTo : 'chart-z' },
+  title: { text: 'Magnetometer Z' },
+  series: [{
+    showInLegend: false,
+    data: []
+  }],
+  plotOptions: {
+    line: { animation: false,
+      dataLabels: { enabled: true }
+    },
+    series: { color: '#18009c' }
+  },
+  xAxis: { type: 'datetime',
+    dateTimeLabelFormats: { second: '%H:%M:%S' }
+  },
+  yAxis: {
+    title: { text: 'Z Value' }
+  },
+  credits: { enabled: false }
+});
+
+setInterval(function ( ) {
+  var xhttpX = new XMLHttpRequest();
+  xhttpX.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      var x = (new Date()).getTime(),
+          y = parseFloat(this.responseText);
+      if(chartX.series[0].data.length > 40) {
+        chartX.series[0].addPoint([x, y], true, true, true);
+      } else {
+        chartX.series[0].addPoint([x, y], true, false, true);
+      }
+    }
+  };
+  xhttpX.open("GET", "/x", true);
+  xhttpX.send();
+}, 1000 ) ;
+
+setInterval(function ( ) {
+  var xhttpY = new XMLHttpRequest();
+  xhttpY.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      var x = (new Date()).getTime(),
+          y = parseFloat(this.responseText);
+      if(chartY.series[0].data.length > 40) {
+        chartY.series[0].addPoint([x, y], true, true, true);
+      } else {
+        chartY.series[0].addPoint([x, y], true, false, true);
+      }
+    }
+  };
+  xhttpY.open("GET", "/y", true);
+  xhttpY.send();
+}, 1000 ) ;
+
+setInterval(function ( ) {
+  var xhttpZ = new XMLHttpRequest();
+  xhttpZ.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      var x = (new Date()).getTime(),
+          y = parseFloat(this.responseText);
+      if(chartZ.series[0].data.length > 40) {
+        chartZ.series[0].addPoint([x, y], true, true, true);
+      } else {
+        chartZ.series[0].addPoint([x, y], true, false, true);
+      }
+    }
+  };
+  xhttpZ.open("GET", "/z", true);
+  xhttpZ.send();
+}, 1000 ) ;
+</script>
+</html>
